@@ -11,8 +11,8 @@ with open('spacegray-dark.json', 'r') as f:
 with open('spacegray-light.json', 'r') as f:
     def_light = json.load(f)
 
-with open('colors/sublimetext-spacegray-dark.vim', 'w') as f:
+with open('colors/spacegray-dark.vim', 'w') as f:
     print(chevron.render(template_vim, def_dark), file=f)
 
-with open('colors/sublimetext-spacegray-light.vim', 'w') as f:
+with open('colors/spacegray-light.vim', 'w') as f:
     print(chevron.render(template_vim, def_light), file=f)
