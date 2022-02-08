@@ -1,5 +1,5 @@
 # sublimetext-spacegray.vim
-Vim-port of Spacegray themes for Sublime Text
+Vim-port of [Spacegray themes for Sublime Text](https://github.com/kkga/spacegray).
 
 Using the following Mustache template as a reference:
 * https://github.com/chriskempson/base16-textmate/blob/1d9e52afb74e03f5a2fdc53d9327428fe00c70c7/templates/default.mustache
